@@ -23,6 +23,15 @@ Let a = i + 2n and b = j + 2n then it follows that 3n^2 = ij and c = i + j + 3n
 So for n = 1,2,3,... one can find all the i and j such that ij = 3n^2 then
 form each i, j, and n  one can find a, b, and c.
 
+To solve a^2 + b^2 -ab = c^2 for integer solutions, let i, j, k be integer
+solutions to i^2 + j^2 + ij = k^2 which we have solved in the above paragraph.
+
+We now show that a=i, b=i+j, c=k solves a^2 + b^2 -ab = c^2.
+
+a^2 + b^2 - ab = i^2 + (i^2 + 2ij + j^2) - i^2 - ij =  i^2 + j^2 + ij = k^2
+
+Similarly a=j, b=i+j, c=k also solves a^2 + b^2 -ab = c^2
+
 # The python code
 
 ## triangles.Triangles120()
